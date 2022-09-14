@@ -2,15 +2,25 @@
     margin: 0px;
     padding: 0px;
 }
-
+html::-webkit-scrollbar {
+    width: 0 !important;
+  }
+footer{
+    margin-top:10em;
+    height: 200px;
+    margin-bottom: -35px;
+    width: auto;
+    background: #475d53;
+    color: #efefef;
+}
 body {
     font-family: "Poppins", sans-serif;
     background-image: url(./images/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-#main{
+#main{margin-top:5em;
     width:auto;
     background-color: rgba(132, 179, 186, 0.58);
     border-radius: 50px;
