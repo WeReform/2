@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(./images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#main{
+    width:auto;
+    background-color: rgba(132, 179, 186, 0.58);
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid black;
+
+}
+#wereform,#logo{
+    display: block;
+    margin: auto;
+}
+
+#navbar{height: 100px;
+    background-color: transparent;
+    padding: 20px;
+}
+#navbar img{
+    max-height: 60px;
+    width: auto;
+}
+.bs{
+    width: 100%;
+}
+#one,#two,#three{
+    margin-right: 0%;
+    margin: 4px;
+    width: 30px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: 25px;
+}
+#submit{
+    width: 100%;
+}
+#trash {width: fit-content;
+    font-family: "Antonio", sans-serif;
+    background-color: rgba(255, 251, 226, 0.2);
+    height: 80%;
+    padding: 2px;
+    color: #000000;
+    font-size: xx-large;
+    font-weight: 1000;
+  }
